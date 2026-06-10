@@ -2,7 +2,19 @@
   "permissions": {
     "allow": [
       "Skill(run)",
-      "Skill(run:*)"
+      "Skill(run:*)",
+      "Bash(mkdir -p /tmp/screenshots)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,2400 --screenshot=/tmp/screenshots/index.png http://127.0.0.1:8123/index.html)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,7000 --screenshot=/tmp/screenshots/index_full.png http://127.0.0.1:8123/index.html)",
+      "Read(//tmp/**)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,1000 --screenshot=services.png \"http://127.0.0.1:8123/index.html#services\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,1000 --screenshot=whyus.png \"http://127.0.0.1:8123/index.html#why-us\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,1000 --screenshot=about_features.png \"http://127.0.0.1:8123/index.html#about\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,1000 --screenshot=/tmp/screenshots/services.png \"http://127.0.0.1:8123/index.html#services\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,1000 --screenshot=/tmp/screenshots/whyus.png \"http://127.0.0.1:8123/index.html#why-us\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --window-size=1400,1000 --screenshot=/tmp/screenshots/about_features.png \"http://127.0.0.1:8123/index.html#about\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless=new --disable-gpu --window-size=1400,1000 --virtual-time-budget=3000 --screenshot=/tmp/screenshots/services2.png \"http://127.0.0.1:8123/index.html#services\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" --max-time 8 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css)"
     ]
   }
 }

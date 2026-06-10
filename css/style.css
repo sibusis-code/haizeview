@@ -121,6 +121,7 @@ a { text-decoration: none; color: inherit; }
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.3rem;
+  color: var(--green-dark);
 }
 .nav-logo-text { line-height: 1.1; }
 .nav-logo-text strong {
@@ -391,6 +392,7 @@ a { text-decoration: none; color: inherit; }
   border-radius: 8px;
   display: flex; align-items: center; justify-content: center;
   font-size: 1rem;
+  color: var(--gold);
 }
 .about-feature h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 2px; }
 .about-feature p { font-size: 0.8rem; color: var(--gray); }
@@ -435,6 +437,7 @@ a { text-decoration: none; color: inherit; }
   font-size: 1.6rem;
   margin-bottom: 20px;
   box-shadow: 0 4px 16px rgba(27,67,50,0.25);
+  color: var(--white);
 }
 .service-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 12px; color: var(--green-dark); }
 .service-card p { font-size: 0.87rem; color: var(--gray); line-height: 1.75; }
@@ -497,6 +500,7 @@ a { text-decoration: none; color: inherit; }
   display: flex; align-items: center; justify-content: center;
   font-size: 1.6rem;
   margin: 0 auto 20px;
+  color: var(--gold);
 }
 .why-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--white); margin-bottom: 10px; }
 .why-card p { font-size: 0.85rem; color: rgba(255,255,255,0.6); line-height: 1.7; }
@@ -640,7 +644,7 @@ a { text-decoration: none; color: inherit; }
   transition: background 0.2s;
 }
 .value-chip:hover { background: rgba(212,175,55,0.15); border-color: rgba(212,175,55,0.4); }
-.value-chip span { display: block; font-size: 1.6rem; margin-bottom: 8px; }
+.value-chip span { display: block; font-size: 1.6rem; margin-bottom: 8px; color: var(--gold); }
 .value-chip p { font-size: 0.8rem; color: rgba(255,255,255,0.75); font-weight: 500; }
 
 /* â”€â”€â”€ COMMUNITY â”€â”€â”€ */
@@ -695,7 +699,7 @@ a { text-decoration: none; color: inherit; }
   box-shadow: var(--shadow);
   flex-shrink: 0;
 }
-.test-stars { color: var(--gold); font-size: 1.1rem; letter-spacing: 3px; margin-bottom: 16px; }
+.test-stars { color: var(--gold); font-size: 1.1rem; display: flex; gap: 6px; margin-bottom: 16px; }
 .test-card blockquote {
   font-size: 0.95rem;
   color: var(--gray-dark);
@@ -802,6 +806,7 @@ a { text-decoration: none; color: inherit; }
   border-radius: 10px;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.1rem;
+  color: var(--green);
 }
 .contact-item-text strong { display: block; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green); margin-bottom: 4px; }
 .contact-item-text p, .contact-item-text a { font-size: 0.9rem; color: var(--gray-dark); }
@@ -895,6 +900,7 @@ footer {
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-size: 1.3rem;
+  color: var(--green-dark);
 }
 .footer-logo-text strong {
   display: block;
@@ -923,7 +929,7 @@ footer {
 .footer-links a { font-size: 0.85rem; color: rgba(255,255,255,0.5); transition: color 0.2s; }
 .footer-links a:hover { color: var(--gold); }
 .footer-contact-item { display: flex; gap: 10px; margin-bottom: 12px; }
-.footer-contact-item span:first-child { font-size: 1rem; }
+.footer-contact-item span:first-child { font-size: 1rem; color: var(--gold); }
 .footer-contact-item a, .footer-contact-item p {
   font-size: 0.82rem; color: rgba(255,255,255,0.5);
   transition: color 0.2s;
