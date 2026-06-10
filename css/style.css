@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --green: #1B4332;
   --green-light: #2D6A4F;
   --green-dark: #0f2a1e;
@@ -35,7 +35,7 @@ img { max-width: 100%; display: block; }
 
 a { text-decoration: none; color: inherit; }
 
-/* ─── UTILITY ─── */
+/* â”€â”€â”€ UTILITY â”€â”€â”€ */
 .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .section-label {
   display: inline-block;
@@ -97,7 +97,7 @@ a { text-decoration: none; color: inherit; }
 }
 .btn-green:hover { background: var(--green-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(27,67,50,0.4); }
 
-/* ─── NAVBAR ─── */
+/* â”€â”€â”€ NAVBAR â”€â”€â”€ */
 #navbar {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
   padding: 20px 0;
@@ -166,8 +166,7 @@ a { text-decoration: none; color: inherit; }
   display: none;
   position: fixed; inset: 0;
   background: var(--green-dark);
-  z-index: 999;
-  flex-direction: column;
+  z-index: 1100;\n  flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 32px;
@@ -188,7 +187,7 @@ a { text-decoration: none; color: inherit; }
   cursor: pointer;
 }
 
-/* ─── HERO ─── */
+/* â”€â”€â”€ HERO â”€â”€â”€ */
 #hero {
   position: relative;
   min-height: 100vh;
@@ -288,7 +287,7 @@ a { text-decoration: none; color: inherit; }
 @keyframes bounce { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(-8px)} }
 .hero-scroll svg { width: 24px; }
 
-/* ─── PAGE HERO (inner pages) ─── */
+/* â”€â”€â”€ PAGE HERO (inner pages) â”€â”€â”€ */
 .page-hero {
   position: relative;
   min-height: 50vh;
@@ -340,7 +339,7 @@ a { text-decoration: none; color: inherit; }
 .breadcrumb a:hover { color: var(--gold); }
 .breadcrumb span { color: var(--gold); }
 
-/* ─── ABOUT ─── */
+/* â”€â”€â”€ ABOUT â”€â”€â”€ */
 #about { padding: 120px 0; background: var(--off-white); }
 .about-grid {
   display: grid;
@@ -395,7 +394,7 @@ a { text-decoration: none; color: inherit; }
 .about-feature h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 2px; }
 .about-feature p { font-size: 0.8rem; color: var(--gray); }
 
-/* ─── SERVICES ─── */
+/* â”€â”€â”€ SERVICES â”€â”€â”€ */
 #services { padding: 120px 0; background: var(--white); }
 .services-header { text-align: center; margin-bottom: 64px; }
 .services-header .section-desc { margin: 0 auto; }
@@ -449,13 +448,13 @@ a { text-decoration: none; color: inherit; }
   position: relative;
 }
 .service-list li::before {
-  content: '→';
+  content: 'â†’';
   position: absolute; left: 0;
   color: var(--gold);
   font-size: 0.8rem;
 }
 
-/* ─── WHY US ─── */
+/* â”€â”€â”€ WHY US â”€â”€â”€ */
 #why-us {
   padding: 120px 0;
   background: var(--green-dark);
@@ -501,7 +500,7 @@ a { text-decoration: none; color: inherit; }
 .why-card h3 { font-size: 1.05rem; font-weight: 700; color: var(--white); margin-bottom: 10px; }
 .why-card p { font-size: 0.85rem; color: rgba(255,255,255,0.6); line-height: 1.7; }
 
-/* ─── GALLERY ─── */
+/* â”€â”€â”€ GALLERY â”€â”€â”€ */
 #gallery { padding: 120px 0; background: var(--gray-light); }
 .gallery-header { text-align: center; margin-bottom: 56px; }
 .gallery-grid {
@@ -573,7 +572,7 @@ a { text-decoration: none; color: inherit; }
 }
 .lightbox-close:hover { background: rgba(255,255,255,0.2); }
 
-/* ─── DESTINATIONS ─── */
+/* â”€â”€â”€ DESTINATIONS â”€â”€â”€ */
 #destinations { padding: 120px 0; background: var(--white); }
 .dest-header { text-align: center; margin-bottom: 64px; }
 .dest-grid {
@@ -618,7 +617,7 @@ a { text-decoration: none; color: inherit; }
 }
 .dest-card:hover .dest-link { gap: 10px; }
 
-/* ─── VISION MISSION ─── */
+/* â”€â”€â”€ VISION MISSION â”€â”€â”€ */
 #vision { padding: 120px 0; background: var(--green); }
 .vm-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 64px;
@@ -643,7 +642,7 @@ a { text-decoration: none; color: inherit; }
 .value-chip span { display: block; font-size: 1.6rem; margin-bottom: 8px; }
 .value-chip p { font-size: 0.8rem; color: rgba(255,255,255,0.75); font-weight: 500; }
 
-/* ─── COMMUNITY ─── */
+/* â”€â”€â”€ COMMUNITY â”€â”€â”€ */
 #community { padding: 120px 0; background: var(--off-white); }
 .community-inner {
   display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
@@ -678,7 +677,7 @@ a { text-decoration: none; color: inherit; }
 }
 .impact-stat span { font-size: 0.75rem; color: var(--gray); margin-top: 4px; display: block; }
 
-/* ─── TESTIMONIALS ─── */
+/* â”€â”€â”€ TESTIMONIALS â”€â”€â”€ */
 #testimonials { padding: 120px 0; background: var(--gray-light); }
 .test-header { text-align: center; margin-bottom: 56px; }
 .test-slider { position: relative; overflow: hidden; }
@@ -731,7 +730,7 @@ a { text-decoration: none; color: inherit; }
   border-radius: 5px;
 }
 
-/* ─── FAQ ─── */
+/* â”€â”€â”€ FAQ â”€â”€â”€ */
 #faq { padding: 120px 0; background: var(--white); }
 .faq-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
 .faq-list { display: flex; flex-direction: column; gap: 12px; }
@@ -767,7 +766,7 @@ a { text-decoration: none; color: inherit; }
 }
 .faq-a.open { max-height: 200px; padding: 4px 24px 20px; }
 
-/* ─── CTA ─── */
+/* â”€â”€â”€ CTA â”€â”€â”€ */
 #cta {
   padding: 120px 0;
   position: relative;
@@ -789,7 +788,7 @@ a { text-decoration: none; color: inherit; }
 .cta-content p { font-size: 1.05rem; color: rgba(255,255,255,0.7); margin-bottom: 40px; }
 .cta-buttons { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
 
-/* ─── CONTACT ─── */
+/* â”€â”€â”€ CONTACT â”€â”€â”€ */
 #contact { padding: 120px 0; background: var(--white); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 64px; }
 .contact-info h2 { font-size: 2rem; color: var(--green-dark); margin-bottom: 16px; }
@@ -840,7 +839,7 @@ a { text-decoration: none; color: inherit; }
   font-weight: 600;
 }
 
-/* ─── MAP ─── */
+/* â”€â”€â”€ MAP â”€â”€â”€ */
 .map-container {
   margin-top: 80px;
   border-radius: var(--radius);
@@ -850,7 +849,7 @@ a { text-decoration: none; color: inherit; }
 }
 .map-container iframe { width: 100%; height: 100%; border: none; }
 
-/* ─── NEWSLETTER ─── */
+/* â”€â”€â”€ NEWSLETTER â”€â”€â”€ */
 #newsletter {
   padding: 80px 0;
   background: linear-gradient(135deg, var(--green-dark), var(--green));
@@ -875,7 +874,7 @@ a { text-decoration: none; color: inherit; }
 .newsletter-form input::placeholder { color: rgba(255,255,255,0.5); }
 .newsletter-form input:focus { border-color: var(--gold); }
 
-/* ─── FOOTER ─── */
+/* â”€â”€â”€ FOOTER â”€â”€â”€ */
 footer {
   background: var(--green-dark);
   padding: 80px 0 0;
@@ -947,7 +946,7 @@ footer {
 .footer-credit a { color: rgba(255,255,255,0.55); font-weight: 600; transition: color 0.2s; }
 .footer-credit a:hover { color: var(--gold); }
 
-/* ─── WHATSAPP FLOAT ─── */
+/* â”€â”€â”€ WHATSAPP FLOAT â”€â”€â”€ */
 .wa-float {
   position: fixed; bottom: 28px; right: 28px; z-index: 500;
   width: 56px; height: 56px;
@@ -979,7 +978,7 @@ footer {
 }
 .wa-float:hover .wa-tooltip { opacity: 1; transform: translateX(0); }
 
-/* ─── SCROLL REVEAL ─── */
+/* â”€â”€â”€ SCROLL REVEAL â”€â”€â”€ */
 .reveal {
   opacity: 0;
   transform: translateY(28px);
@@ -990,7 +989,7 @@ footer {
 .reveal-delay-2 { transition-delay: 0.2s; }
 .reveal-delay-3 { transition-delay: 0.3s; }
 
-/* ─── RESPONSIVE ─── */
+/* â”€â”€â”€ RESPONSIVE â”€â”€â”€ */
 @media (max-width: 1024px) {
   .services-grid { grid-template-columns: repeat(2, 1fr); }
   .why-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1023,10 +1022,20 @@ footer {
   .about-features { grid-template-columns: 1fr; }
 }
 @media (max-width: 480px) {
-  .gallery-grid { grid-template-columns: 1fr; }
+  #hero {
+    align-items: flex-start;
+    padding-top: 100px;
+    min-height: 80vh;
+  }
+  .hero-title { font-size: clamp(2rem, 8vw, 3rem); }
+  .hero-subtitle { font-size: 1rem; max-width: 100%; }
+  .hero-buttons { gap: 12px; margin-bottom: 32px; }
+  .hero-stats { flex-direction: column; gap: 18px; }  .gallery-grid { grid-template-columns: 1fr; }
   .gallery-item:nth-child(1), .gallery-item:nth-child(6) { grid-column: span 1; }
   .hero-buttons { flex-direction: column; }
   .btn { width: 100%; justify-content: center; }
   .cta-buttons { flex-direction: column; align-items: center; }
   .contact-buttons { flex-direction: column; }
 }
+
+
