@@ -19,7 +19,7 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   font-family: 'Inter', sans-serif;
@@ -198,8 +198,11 @@ a { text-decoration: none; color: inherit; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1800&q=80') center/cover no-repeat;
-  transform: scale(1.05);
+  left: 50%;
+  width: calc(100vw / 1.15);
+  min-width: calc(100vw / 1.15);
+  background: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1800&q=80') center center/cover no-repeat;
+  transform: translateX(-50%) scale(1.05);
   animation: heroZoom 20s ease-in-out infinite alternate;
 }
 @keyframes heroZoom {
@@ -300,7 +303,10 @@ a { text-decoration: none; color: inherit; }
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: scale(1.05);
+  left: 50%;
+  width: calc(100vw / 1.15);
+  min-width: calc(100vw / 1.15);
+  transform: translateX(-50%) scale(1.05);
   animation: heroZoom 20s ease-in-out infinite alternate;
 }
 .page-hero-overlay {
@@ -1007,7 +1013,7 @@ footer {
   .footer-grid { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: repeat(2, 1fr); }
   .test-card { min-width: calc(100% - 0px); margin-right: 0; }
-  .test-card + .test-card { margin-left: 24px; }
+  .test-card + .test-card { margin-left: 0; }
   .form-row { grid-template-columns: 1fr; }
   .contact-form { padding: 32px 24px; }
   .hero-stats { gap: 24px; }
